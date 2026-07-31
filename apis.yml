@@ -1,9 +1,25 @@
 aid: notepass
 name: NotePass
-description: 'NotePass is a company surfaced as a portfolio company of electric-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'NotePass (notepass.ai) is an early-stage, stealth-mode startup that
+  is pre-launch: its only public web presence is a "Coming Soon" landing page inviting
+  visitors to follow its journey and sign up for launch updates. The product has not
+  been publicly announced and no developer platform, API, documentation, or SDK is
+  published yet. NotePass was surfaced as a portfolio company of Electric Capital and
+  added to the API Evangelist network as a lead to monitor for a future API surface.
+  Public contact is james@notepass.ai.'
 url: https://raw.githubusercontent.com/api-evangelist/notepass/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://notepass.ai/Assets/NotePass%20Social%20Images/og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Startup
+- Stealth
+- Coming Soon
+- Pre-Launch
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/notepass-domain-security.yml
 - type: Website
   url: https://notepass.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/notepass/
+- type: Twitter
+  url: https://x.com/notepassai
+- type: YouTube
+  url: https://www.youtube.com/@notepass-ai
+- type: Contact
+  url: mailto:james@notepass.ai
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
