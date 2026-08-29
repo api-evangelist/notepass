@@ -8,6 +8,17 @@ description: 'NotePass (notepass.ai) is an early-stage, stealth-mode startup tha
   added to the API Evangelist network as a lead to monitor for a future API surface.
   Public contact is james@notepass.ai.'
 url: https://raw.githubusercontent.com/api-evangelist/notepass/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
